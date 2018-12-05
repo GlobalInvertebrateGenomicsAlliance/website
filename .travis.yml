@@ -13,6 +13,6 @@ deploy:
   provider: pages
   skip-cleanup: true
   local-dir: output
-  github-token: GITHUB_TOKEN # Set in the settings page of your repository
+  github-token: $GITHUB_TOKEN # Set in the settings page of your repository
   on:
     branch: master
