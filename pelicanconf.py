@@ -6,7 +6,7 @@ import os
 AUTHOR = 'GIGA'
 SITENAME = 'GIGA - Global Invertebrate Genomics Alliance'
 SITEDESCRIPTION = 'Website for the Global Invertebrate Genomics Alliance'
-SITEURL = 'giga.github.io'
+SITEURL = 'GlobalInvertebrateGenomicsAlliance.github.io'
 
 # plugins
 PLUGIN_PATHS = ['./plugins']
