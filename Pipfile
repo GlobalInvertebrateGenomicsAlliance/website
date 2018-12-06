@@ -7,6 +7,7 @@ name = "pypi"
 pelican = "~=3.7.1"
 markdown = "*"
 "bs4" = "*"
+ghp-import = "*"
 
 [dev-packages]
 
