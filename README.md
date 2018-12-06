@@ -1,7 +1,7 @@
 # Website for GIGA:
 (temp) https://globalinvertebrategenomicsalliance.github.io/website/
 
-Written with the Pelican static site generator, written in Python, using the [pelican-fh5co-marble theme](https://github.com/claudio-walser/pelican-fh5co-marble-example)
+Written with the Pelican static site generator using the [pelican-fh5co-marble theme](https://github.com/claudio-walser/pelican-fh5co-marble-example)
 
 Deployed by [Travis-CI](https://travis-ci.com/GlobalInvertebrateGenomicsAlliance/website)
 
