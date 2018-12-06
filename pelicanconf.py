@@ -14,8 +14,8 @@ PLUGINS = ['i18n_subsites', 'tipue_search']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 # theme and theme localization
-THEME = './theme'
-I18N_GETTEXT_LOCALEDIR = './theme/locale/'
+THEME = 'theme'
+I18N_GETTEXT_LOCALEDIR = 'theme/locale/'
 I18N_GETTEXT_DOMAIN = 'messages'
 I18N_GETTEXT_NEWSTYLE = True
 TIMEZONE = 'America/Los_Angeles'
@@ -44,7 +44,7 @@ LOGO = 'images/giga_logo.jpg'
 # special content
 HERO = [
   {
-    'image': '/images/hero/background-1.jpg',
+    'image': 'images/hero/background-1.jpg',
     # for multilanguage support, create a simple dict
     'title': {
       'en':'Some special content',
@@ -62,19 +62,19 @@ HERO = [
       }
     ]
   }, {
-    'image': '/images/hero/background-2.jpg',
+    'image': 'images/hero/background-2.jpg',
     # keep it a string if you dont need multiple languages
     'title': 'Uh, special too',
     # keep it a string if you dont need multiple languages
     'text': 'Keep hero.text and hero.title a string if you dont need multilanguage.',
     'links': []
   }, {
-    'image': '/images/hero/background-3.jpg',
+    'image': 'images/hero/background-3.jpg',
     'title': 'No Blogroll yet',
     'text': 'Because of space issues in the man-nav, i didnt implemented Blogroll links yet.',
     'links': []
   }, {
-    'image': '/images/hero/background-4.jpg',
+    'image': 'images/hero/background-4.jpg',
     'title': 'Ads missing as well',
     'text': 'And since i hate any ads, this is not implemented as well',
     'links': []
@@ -90,7 +90,7 @@ SOCIAL = (
 )
 
 ABOUT = {
-  'image': '/images/about/about.jpeg',
+  'image': 'images/about/about.jpeg',
   'mail': 'info@gitcd.io',
   # keep it a string if you dont need multiple languages
   'text': {
